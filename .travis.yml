@@ -1,0 +1,14 @@
+language: bash
+
+services:
+  - docker
+
+env:
+  - VARNISH_VER=4.1.9 TAGS=4.1,4,latest
+
+script:
+  - cd ./"${VARNISH_VER:0:1}"
+  - make && make test
+
+after_success:
+  - . "${TRAVIS_BUILD_DIR}/release.sh"
