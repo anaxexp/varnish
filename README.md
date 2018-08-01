@@ -1,20 +1,20 @@
 # Varnish Docker Container Image
 
 [![Build Status](https://travis-ci.org/anaxexp/varnish.svg?branch=master)](https://travis-ci.org/anaxexp/varnish)
-[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexperience/varnish.svg)](https://hub.docker.com/r/anaxexperience/varnish)
-[![Docker Stars](https://img.shields.io/docker/stars/anaxexperience/varnish.svg)](https://hub.docker.com/r/anaxexperience/varnish)
-[![Docker Layers](https://images.microbadger.com/badges/image/anaxexperience/varnish.svg)](https://microbadger.com/images/anaxexperience/varnish)
+[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexp/varnish.svg)](https://hub.docker.com/r/anaxexp/varnish)
+[![Docker Stars](https://img.shields.io/docker/stars/anaxexp/varnish.svg)](https://hub.docker.com/r/anaxexp/varnish)
+[![Docker Layers](https://images.microbadger.com/badges/image/anaxexp/varnish.svg)](https://microbadger.com/images/anaxexp/varnish)
 
 ## Docker Images
 
-❗For better reliability we release images with stability tags (`anaxexperience/varnish:4-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/varnish/releases). We strongly recommend using images only with stability tags. 
+❗For better reliability we release images with stability tags (`anaxexp/varnish:4-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/varnish/releases). We strongly recommend using images only with stability tags. 
 
 Overview:
 
 * All images are based on Alpine Linux
-* Base image: [anaxexperience/alpine](https://github.com/anaxexp/alpine)
+* Base image: [anaxexp/alpine](https://github.com/anaxexp/alpine)
 * [Travis CI builds](https://travis-ci.org/anaxexp/varnish) 
-* [Docker Hub](https://hub.docker.com/r/anaxexperience/varnish)
+* [Docker Hub](https://hub.docker.com/r/anaxexp/varnish)
 
 Supported tags and respective `Dockerfile` links:
 

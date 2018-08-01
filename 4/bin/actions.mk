@@ -1,4 +1,4 @@
-.PHONY: flush check-ready check-live
+.PHONY: flush check-ready test-check-ready check-live
 
 host ?= localhost
 max_try ?= 1
@@ -14,6 +14,9 @@ flush:
 
 check-ready:
 	wait_for "$(command)" $(service) $(host) $(max_try) $(wait_seconds) $(delay_seconds)
+
+test-check-ready:
+	wait_for "$(command)" test_$(service) $(host) $(max_try) $(wait_seconds) $(delay_seconds)
 
 check-live:
 	@echo "OK"

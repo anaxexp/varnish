@@ -1,4 +1,4 @@
-FROM anaxexperience/alpine:3.7
+FROM anaxexp/alpine:3.7
 
 ARG VARNISH_VER
 ARG VARNISH_VER_ALPINE
