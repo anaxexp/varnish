@@ -1,4 +1,4 @@
-FROM anaxexp/alpine:3.7-2.1.0
+FROM anaxexp/alpine:3.6-2.1.0
 
 ARG VARNISH_VER
 ARG VARNISH_VER_ALPINE
